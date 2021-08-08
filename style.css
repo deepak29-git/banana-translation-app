@@ -1,0 +1,48 @@
+body{
+    background-image: url(/minion.jpg);
+    background-position: center;
+    background-size:cover ;
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    background-color: yellow;
+    padding: 8px 0;
+}
+.navbar .heading{
+    text-align: center;
+}
+textarea{
+    padding: 0.7rem;
+}
+#output{
+    height: 3rem;
+    max-width: 100%;
+    border: 2px solid black;
+    background-color: white;
+    padding: 0.7rem;
+}
+.output-heading{
+    color: white;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    max-width: 40%;
+    margin: auto;
+    padding: 100px 0;
+    
+}
+#btn{
+    padding: 1rem;
+    margin: 1rem;
+    border: 1px solid ;
+    border-radius: 9px;
+    background-color: yellow;
+    color: black;
+    cursor: pointer;
+}
+#btn:hover{
+    background: rgb(209, 209, 26)
+}
